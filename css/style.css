@@ -1,0 +1,57 @@
+.jumbotron{
+    background-color: azure;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: 300;
+    flex-direction:column;
+}
+
+h1{
+    color: rgb(0, 132, 255)
+}
+
+.products-box {
+    width: 90vw;
+}
+
+.price {
+    color: rgb(53, 53, 50);
+    font-size: 1.2em;
+    float:right
+}
+
+.description {
+    border:1px solid rgb(201, 200, 200);
+}
+
+
+body {
+    font-family: monospace;
+}
+
+.review {
+    border: 1px solid rgb(201, 200, 200);
+    padding: 5px;
+}
+
+.review > span {
+    font-size: 1.5em;
+}
+.review > div {
+    font-size: 1.2em;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    font-size:2.0em;
+    border: 1px solid rgb(201, 200, 200);
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.total {
+    float: right
+}
